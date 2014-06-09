@@ -75,6 +75,9 @@ gem 'omniauth-github'
 gem 'ri_cal'
 gem 'yajl-ruby', :require => "yajl"
 
+gem 'unicorn'
+gem 'capistrano-unicorn'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'webmock', :require => false
